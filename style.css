@@ -21,7 +21,7 @@ body, html {
 
 .information {
   width: 100%;
-  padding: 20px 50px;
+  padding: 0px 50px;
   margin-bottom: 30px;
   font-family: "Open Sans", sans-serif;
 }
@@ -48,7 +48,6 @@ body, html {
 ul {
   font-size: 0;
   list-style-type: none;
-  padding: none;
 }
 
 ul li {
