@@ -10,7 +10,8 @@ body, html {
   background-color: #000000;
   color: #FFFFFF; 
   font-family: "Open Sans", sans-serif;
-  margin: 20px
+  margin: 20px; 
+  font-size: 0.7rem;
   
 }
 
