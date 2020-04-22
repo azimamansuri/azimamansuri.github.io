@@ -1,9 +1,10 @@
 *,
 *:before,
 *:after {
-  margin: 10;
-  padding: 10;
+  margin: 15;
+  padding: 15;
   box-sizing: border-box;
+  font-size: 1rem;
 }
 
 body, html {
