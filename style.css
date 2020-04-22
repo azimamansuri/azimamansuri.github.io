@@ -12,7 +12,6 @@ body, html {
   background-color: #000000;
   color: #FFFFFF; 
   font-family: "Open Sans", sans-serif;
-  padding: 10px 0px;
   margin: 20px
   
 }
@@ -24,7 +23,7 @@ body, html {
 
 .information {
   width: 100%;
-  padding: 20px 50px;
+  padding: 20px 30px;
   margin-bottom: 30px;
   font-family: "Open Sans", sans-serif;
 }
@@ -51,6 +50,7 @@ body, html {
 ul {
   font-size: 0;
   list-style-type: none;
+  padding: 20px;
 }
 
 ul li {
