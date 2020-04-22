@@ -1,8 +1,8 @@
 *,
 *:before,
 *:after {
-  margin: 10;
-  padding: 10;
+  margin: 30;
+  padding: 30;
   box-sizing: border-box;
   
 }
@@ -12,6 +12,8 @@ body, html {
   background-color: #000000;
   color: #FFFFFF; 
   font-family: "Open Sans", sans-serif;
+  padding-top: 20
+  
 }
 
 .container {
