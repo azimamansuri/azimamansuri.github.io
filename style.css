@@ -22,12 +22,14 @@ body, html {
   margin-bottom: 30px;
   font-family: "Open Sans", sans-serif;
 }
+
 .information h1 {
   color: #fff;
   font-size: 1rem;
   padding: 0px 10px;
   border-left: 3px solid #D4C2AF;
 }
+
 .information h3 {
   color: #c8b098;
   font-size: 0.5rem;
@@ -35,6 +37,7 @@ body, html {
   padding: 0px 10px;
   border-left: 3px solid #D4C2AF;
 }
+
 .information p {
   padding: 10px 0px;
 }
@@ -43,22 +46,26 @@ ul {
   font-size: 0;
   list-style-type: none;
 }
+
 ul li {
   font-family: "Open Sans", sans-serif;
   font-size: 0.7rem;
   font-weight: 400;
-  color: #fff;
+  color: #FFFFFF;
   display: inline-block;
   padding: 15px;
   position: relative;
 }
+
 ul li ul {
   display: none;
 }
+
 ul li:hover {
   cursor: pointer;
   background-color: #D4C2AF;
 }
+
 ul li:hover ul {
   display: block;
   margin-top: 15px;
@@ -66,10 +73,12 @@ ul li:hover ul {
   left: 0;
   position: absolute;
 }
+
 ul li:hover ul li {
   display: block;
   background-color: #c8b098;
 }
+
 ul li:hover ul li span {
   float: right;
   color: #D4C2AF;
@@ -79,9 +88,11 @@ ul li:hover ul li span {
   font-size: .8rem;
   border-radius: 3px;
 }
+
 ul li:hover ul li:hover {
   background-color: #c2a98e;
 }
+
 ul li:hover ul li:hover span {
   background-color: #cbb59e;
 }
