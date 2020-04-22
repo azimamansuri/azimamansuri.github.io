@@ -1,8 +1,6 @@
 *,
 *:before,
 *:after {
-  margin: 30;
-  padding: 30;
   box-sizing: border-box;
   
 }
@@ -23,7 +21,7 @@ body, html {
 
 .information {
   width: 100%;
-  padding: 20px 30px;
+  padding: 20px 50px;
   margin-bottom: 30px;
   font-family: "Open Sans", sans-serif;
 }
@@ -50,7 +48,7 @@ body, html {
 ul {
   font-size: 0;
   list-style-type: none;
-  padding: 20px;
+  padding: none;
 }
 
 ul li {
