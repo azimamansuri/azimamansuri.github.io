@@ -46,11 +46,17 @@ body, html {
   padding: 15px 0px;
 }
 
+div p a {  color: #D4C2AF;
+    text-decoration: none !important; 
+}
+
 ul {
   font-size: 0;
   list-style-type: none;
   padding: 0px !important;
 }
+
+
 
 ul li {
   font-family: "Open Sans", sans-serif;
