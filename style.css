@@ -50,7 +50,8 @@ div p a {  color: #D4C2AF;
     text-decoration: none !important; 
 }
 
-div a { display: inline-block;
+div a { float: left;
+        clear: left;
         color: #D4C2AF;
         text-decoration: none !important; 
   
