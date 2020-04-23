@@ -70,6 +70,7 @@ ul li {
 
 ul li a { color: #FFFFFF;
     text-decoration: none !important; 
+    display: inline-block;
 } 
 
 ul li ul {
