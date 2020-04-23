@@ -47,7 +47,9 @@ body, html {
 }
 
 div p a {  color: #D4C2AF;
-    text-decoration: none !important; 
+           text-decoration: none !important; 
+           display: block;
+           margin: 0 auto;
 }
 
 div a { color: #D4C2AF;
@@ -76,6 +78,7 @@ ul li {
 
 ul li a { color: #FFFFFF;
     text-decoration: none !important; 
+    
     
 } 
 
