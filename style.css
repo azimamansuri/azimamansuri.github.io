@@ -50,11 +50,10 @@ div p a {  color: #D4C2AF;
     text-decoration: none !important; 
 }
 
-div a { float: left;
-        clear: left;
-        color: #D4C2AF;
+div a { color: #D4C2AF;
         text-decoration: none !important; 
-  
+        display: block;
+        margin: 0 auto;
 }
 
 ul {
