@@ -16,7 +16,7 @@ body, html {
 }
 
 .container {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -44,6 +44,7 @@ body, html {
 
 .information p {
   padding: 15px 0px;
+  
 }
 
 div p a {  color: #D4C2AF;
