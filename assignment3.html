@@ -45,25 +45,51 @@
     <br>
     
     <h3>Part 2: Nested objects </h3>
-		<p> For the second part of the assigment, I designed tiny objects that fit togther and are 3D printed together but come apart. 
+		<p> For the second part of the assigment, I designed a pentagon shaped object that fit togther in a nested form - 
+			the entire nested structure was printed together but each piece comes apart.  
 		</p>
 		
-		<img src="/Nested Objects/nested object (rhino + gh).png" width=250 >
 		<a href="/Nested Objects/NestedObject.stl" download > Nested Object STL (Download) </a>
 		<a href="/Nested Objects/NestedObject.3dm" download > Rhino (Download) </a>
 		<a href="/Nested Objects/nested objects.gh" download > Grasshopper definition (Download) </a>
 		
 		
-		<img src="/Nested Objects/nested object (rhino + gh).png" width=200 >
+		
+		<img src="/Nested Objects/nested object (rhino + gh).png" width=400 >
+		
+		<p> Following the tutorial shared in slack, I created this shape using a grasshopper definition, shown below. 
+			I started by creating a definition of a curve and the offset curves and then extruding the walls up.
+			The method I used here was to create lists and then merge them into list groupings so that the walls 
+			extruded are joined with their base plate surfaces below using a union command. This allows them to separate as individual objects but still be printed together. 
+		</p>
+		
+		
+		<img src="/Nested Objects/nested object (gh definition).png" width=400 >
+		<img src="/Nested Objects/nested object (gh definition - high level).png" width=200 >
+		
+		
+		<p> 
+		</p>
+		
+		
 		<img src="/Nested Objects/nested object (wireframe).png" width=200 >
-		<img src="/Nested Objects/nested object (gh definition - high level).png" width=200 >
-		<img src="/Nested Objects/nested object (surfaces).png" width=200 >
 		<img src="/Nested Objects/nested object (perspective view).png" width=200 >
-		<img src="/Nested Objects/nested object (gh definition).png" width=200 >
-		<img src="/Nested Objects/nested object (gh definition - high level).png" width=200 >
-		<img src="/Nested Objects/nested object (zoomed in).png" width=400 >
+		
+		<p> These surfaces were created and baked to set as individual structures. 
+		</p>
+		
+		
+		<img src="/Nested Objects/nested object (surfaces).png" width=200 >
 		<img src="/Nested Objects/nested objects (separated).png" width=200 >
 		
+		<p> 	
+		</p>
+		
+		<img src="/Nested Objects/nested object (zoomed in).png" width=200 >
+		
+		<p> The overall process of setting up the rhino and grasshopper models was pretty straightforward and super interesting, thanks to the great tutorial!
+		    I then exported the files and imported the STL file into Cura to translate into machine code (gcode) for the printer. 
+		</p>
 		
 		
     <br>
