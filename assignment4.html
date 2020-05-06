@@ -35,21 +35,36 @@
 	<hr>
   
   <h3>Part 1: Meshes</h3>
-		<p> For the first part of the assigment, I designed a mesh that combines two STL files into one. 
+		<p> For the first part of the assigment, I decided to solve a problem I often run into - carrying credit cards without needing a bag. I wanted to create a credit card clip that would 
+			attach to a belt or pocket without falling or slipping out of my pocket. I found an STL for a belt clip and another STL for a credit card clip
+			and created a combined mesh as demonstrated in class. 
 		</p>
 		
-		<a href="/Clips/clips.stl" download > Clips STL (Download) </a>
-		<a href="/Clips/clips.3dm" download > Rhino (Download) </a>
-		<a href="/Clips/clips.gh" download > Grasshopper definition (Download) </a>
-		<a href="/Clips/clips.3mf" download > Cura (Download) </a>
-		<a href="/Clips/clips.gcode" download > gcode (Download) </a>
-		
+		<a href="/Meshes/Meshes.stl" download > Meshes STL (Download) </a>
+		<a href="/Meshes/Meshes.3dm" download > Rhino (Download) </a>
+		<a href="/Meshes/Reference STLs/Frame.STL" download > card holder reference file (Download) </a>
+		<a href="/Meshes/Reference STLs/belt_clips.stl" download > belt clip reference file (Download) </a>
 		
 		<br> 
 		
-		<p> 
+		<p> First, I imported both STL files into Rhino. 
 		</p>
+		<img src="/Meshes/Meshes (import STLs).png" width=700 >
 		
+		<p> I then placed them in the orientation that I wanted them to print in, overlapping a bit so the union would work. 
+		</p>
+		<img src="/Meshes/Meshes (placement).png" width=700>
+		
+		<p> Next, I used the Show Edges command to check that there were no naked edges that I would have to fill. Luckily, there
+			were no naked edges and I could move to create a union as is!
+		</p>
+		<img src="/Meshes/Meshes (naked edges).png" width=700 >
+		
+		<p> Finally, I used the MeshBooleanUnion command to create a union between the two objects.  
+		</p>
+		<img src="/Meshes/Meshes (union).png" width=700 >
+		
+		<br>
 		
 		
     <br>
