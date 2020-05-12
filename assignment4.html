@@ -92,6 +92,12 @@
 		<img src="/Lamp/lamp_moodboard1.jpg" width=350 height=350>
 		<img src="/Lamp/lamp_moodboard2.png" width=350 height=350>
 		
+		<a href="/Lamp/Lamp.stl" download > Lamp STL (Download) </a>
+		<a href="/Lamp/Lamp (object).stl" download > Lamp object (Download) </a>
+		<a href="/Lamp/Lamp (object).3mf" download > Cura (Download) </a>
+		<a href="/Lamp/Lamp (object).gcode" download > gcode (Download) </a>
+		
+		
 		<p> Currently, the lamp is an exposed bulb of a larger size, so I'll have to replace the bulb or account for that 
 			sizing in my creation of the lamp shade.
 		</p>
@@ -103,9 +109,74 @@
 		<img src="/Lamp/lamp_measure2.jpg" width=230 >
 		<img src="/Lamp/lamp_measure4.jpg" width=230 >
 		
-		<p> I then started creating the lamp shape in Rhino (currently still in progress).  
+		<p> I soon realized that the size of the bulb would be a bit difficult to work with in creating 
+			the shade so decided to use a smaller bulb from another lamp I have instead. That changed the 
+			dimensions of my lampshade so I remeasured the shape. 
 		</p>
-		<img src="/Lamp/lamp.png" width=700 >
+		
+		<img src="/Lamp/Lamp (new bulb).jpg" width=230 >
+		<img src="/Lamp/Lamp_measure (top).jpg" width=230 >
+		<img src="/Lamp/Lamp_measure (width).jpg" width=230 >
+		
+		<br>
+		
+		<img src="/Lamp/Lamp_measure (support).jpg" width=350 >
+		<img src="/Lamp/Lamp_measure (length).jpg" width=350 >
+		
+		<p> I then started creating the lamp shape in Rhino. I created two tubes - one for the lamp and
+			 one for the part that would hold onto the lamp inner and allow the lamp to rest on it. Using the 
+			BooleanUnion command, I combined them into one object. 
+		</p>
+		<img src="/Lamp/Lamp (tubes).png" width=350 >
+		<img src="/Lamp/Lamp (union tubes).png" width=350 >
+		
+		<p> Then I used the CreateUVCrv command to create the pattern that would fit the surface area of the lamp. 
+		</p>
+		<img src="/Lamp/Lamp (before pattern).png" width=350 >
+		
+		<p> I then used the arc tool to create the indententation that would cut into the surface. 
+		 	The center point is the center of the object, the start is the point to the left and then the 
+			curve goes below the plane. Then split the curve using the Split command and splitting it 
+			perpendicular to the arc. I then created that surface by using the Sweep 2 Rails function and using 
+			a point on both sides and the center of the arc. 
+		</p>
+		<img src="/Lamp/Lamp (arc).png" width=350 >
+		
+		<p> After creating this surface, I duplicated them using a rectangular array, creating a 7X4 grid pattern. I then selected 
+			the plane (without selecting the objects in it) and used the planar surface command to create it into one plane with the objects. 
+		</p>
+		<img src="/Lamp/Lamp (create pattern).png" width=230 >
+		<img src="/Lamp/Lamp (pattern 1).png" width=230 >
+		<img src="/Lamp/Lamp (pattern 2).png" width=230 >
+		
+		<p> I then used the flow along a surface command to place the pattern onto the lamp shade’s cylinder surface. And it's a lamp! 
+		</p>
+		<img src="/Lamp/Lamp (final design).png" width=350 >
+		
+		<p> I exported the STL and imported it into Cura to print. The estimated time was 6 hours and 14 minutes, and it ended up 
+			printing in 6 hours and 8 minutes.  
+		</p>
+		<img src="/Lamp/Lamp (cura).png" width=350 >
+		<img src="/Lamp/Lamp (in progress).jpg" width=350 >
+		
+		<p> The print came out well on the first try and fit the lamp innerd perfectly.
+		</p>
+		<img src="/Lamp/Lamp (top).jpg" width=230 >
+		<img src="/Lamp/Lamp (side).jpg" width=230 >
+		<img src="/Lamp/Lamp (full).jpg" width=230 >
+		
+		
+		<p> What I later realized was that there was a strong resemblance between the pattern I created to the 
+			indented shape on the lamp base - this allowed it to fit well inside too! Let's just pretend that was by design :) 
+		</p>
+		<img src="/Lamp/Lamp (inside).jpg" width=230 >
+		<img src="/Lamp/Lamp (innerd).jpg" width=230 >
+		<img src="/Lamp/Lamp (inside pattern).jpg" width=230 >
+		
+		<p> Here's how the final product looks when attached to the lamp base and innerd. 
+		</p>
+		<img src="/Lamp/Lamp (with outlet).jpg	" width=350 >
+		<img src="/Lamp/Lamp (top view).jpg" width=350 >
 		
 	
 		
