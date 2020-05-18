@@ -38,31 +38,52 @@
 	
 	<hr>
 		
-		<a href="/Mold/Mold.stl" download > Meshes STL (Download) </a>
+		<a href="/Mold/Mold.stl" download > Mold STL (Download) </a>
 		<a href="/Mold/Mold.3dm" download > Rhino (Download) </a>
+		<a href="/Mold/tile mold.3mf" download > Cura (Download) </a>
+		<a href="/Mold/tile mold.gcode" download > gcode (Download) </a>
+		
 		<br>
 		
-		<p> Since I purchased the food safe material, I decided to create a mold for a donut baking sheet.
+		<p> I originally created a donut baking sheet mold but decided to pivot to something I'd use more. I've been learning 
+			how to stamp prints with ink and using rubber sheets to create custom stamps and decided to try making a
+			stamp mold with silicone to see if it would work similarly. My sister and I were looking into creating a 
+			mediterranean theme for our rubber stamps, so I was inspired by turkish tile design for these stamps. I created
+			the shapes in Rhino that created a similar tile pattern. 
 		</p>
 		
-	<p> I used the torus shape to create the inner molds and a box square to create the tray base.
-		I then used a boolean difference to create the mold shape. 
+	<p> I created two boxes (one smaller than the other) and then used the booleandifference command to create the base tray. 
+	 
 	</p>
-	<img src="/Mold/Mold.png" width=350 >
-	<img src="/Mold/Mold (boolean difference).png" width=350 >
+	<img src="/Mold/mold base.png" width=350 >
+		
+	
+	<p> I created a geometric pattern for the stamp shape - I decided to make my stamp double sided so I could use 
+		two different designs on my prints.
+	 
+	</p>
+	<img src="/Mold/tile design.png" width=350 >
 
 		
-	<p> I then added tubes to allow for the mold to be poured into the structure and added a sphere to help as support 
+	<p> I then added a tube to allow for the mold to be poured into the structure and added a sphere to help as support 
 		between the two sides. For one side I used the BooleanUnion command and for the other side I used the 
-		BooleanDifference command. 
+		BooleanDifference command.
 	</p>
-	<img src="/Mold/Mold (add tubes).png" width=350 height=350>
-	<img src="/Mold/Mold (add sphere).png" width=350 height=350>
+	<img src="/Mold/tile design with tube.png" width=350>
 		
 		
-	<p> This was the final result, which I will be sending over to Cura to set up printing. 
+	<p> Here are some detailed renderings. 
 	</p>
-	<img src="/Mold/Mold (final).png" width=700 >
+	<img src="/Mold/tile render_angle.png" width=700 >
+	<img src="/Mold/tile render_flat.png" width=700 >
+		
+		
+	<p> I then exported to Cura to print - the estimated time is 11 hours and 23 minutes. Two hours into the print,
+		I started to hear a ticking sound near the bowden tube and the extruder was lifted instead of releasing filament after printing
+		the initial layers. Tightening the screws around the tube entry point seemed to do the trick so hoping it prints all the way 
+		through correctly. 
+	</p>
+	<img src="/Mold/tile mold_cura.png" width=700 >
 	
 		
 		
